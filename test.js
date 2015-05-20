@@ -1,5 +1,6 @@
 'use strict';
 var test = require('ava');
+Math.hypot = undefined;
 var hypot = require('./');
 
 function isNan(x) {
