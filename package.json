@@ -1,6 +1,6 @@
 {
   "name": "hypot",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ES6 Math.hypot() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/hypot",
