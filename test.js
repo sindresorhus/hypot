@@ -1,11 +1,8 @@
 'use strict';
 var test = require('ava');
+var numberIsNan = require('number-is-nan');
 Math.hypot = undefined;
 var hypot = require('./');
-
-function isNan(x) {
-	return x !== x;
-}
 
 test(function (t) {
 	t.assert(hypot() === 0);
@@ -34,9 +31,9 @@ test(function (t) {
 	t.assert(hypot(0, -Infinity) === Infinity);
 	t.assert(hypot(Infinity, NaN) === Infinity);
 	t.assert(hypot(NaN, -Infinity) === Infinity);
-	t.assert(isNan(hypot(NaN)));
-	t.assert(isNan(hypot(3, 4, 'foo')));
-	t.assert(isNan(hypot(NaN, 0)));
-	t.assert(isNan(hypot(0, NaN)));
+	t.assert(numberIsNan(hypot(NaN)));
+	t.assert(numberIsNan(hypot(3, 4, 'foo')));
+	t.assert(numberIsNan(hypot(NaN, 0)));
+	t.assert(numberIsNan(hypot(0, NaN)));
 	t.end();
 });
