@@ -1,7 +1,7 @@
 {
   "name": "hypot",
   "version": "1.0.0",
-  "description": "ES6 Math.hypot() ponyfill",
+  "description": "ES2015 Math.hypot() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/hypot",
   "author": {
@@ -19,10 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "es6",
     "es2015",
-    "ecmascript",
-    "harmony",
     "ponyfill",
     "polyfill",
     "shim",
