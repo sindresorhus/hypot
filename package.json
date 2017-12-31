@@ -1,37 +1,37 @@
 {
-  "name": "hypot",
-  "version": "1.0.1",
-  "description": "ES2015 Math.hypot() ponyfill",
-  "license": "MIT",
-  "repository": "sindresorhus/hypot",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "es2015",
-    "ponyfill",
-    "polyfill",
-    "shim",
-    "number",
-    "math",
-    "hypot",
-    "square",
-    "root",
-    "sum"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "number-is-nan": "^1.0.0"
-  }
+	"name": "hypot",
+	"version": "1.0.1",
+	"description": "ES2015 Math.hypot() ponyfill",
+	"license": "MIT",
+	"repository": "sindresorhus/hypot",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"es2015",
+		"ponyfill",
+		"polyfill",
+		"shim",
+		"number",
+		"math",
+		"hypot",
+		"square",
+		"root",
+		"sum"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"number-is-nan": "^1.0.0"
+	}
 }

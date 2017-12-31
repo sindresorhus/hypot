@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save hypot
+$ npm install hypot
 ```
 
 
 ## Usage
 
 ```js
-var hypot = require('hypot');
+const hypot = require('hypot');
 
 hypot(3, -4);
 //=> 5
@@ -22,4 +22,4 @@ hypot(3, -4);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

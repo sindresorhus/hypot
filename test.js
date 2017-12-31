@@ -1,8 +1,6 @@
 import test from 'ava';
 import numberIsNan from 'number-is-nan';
-
-Math.hypot = undefined;
-const m = require('./');
+import m from '.';
 
 test(t => {
 	t.is(m(), 0);
